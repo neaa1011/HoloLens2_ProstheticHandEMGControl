@@ -25,11 +25,11 @@ from sklearn.model_selection import KFold
 
 class const():
     DATASET_PATHS = [
-        "C:/Users/Aaron/Desktop/Uni/MCI/Masterarbeit/Python_VisualGestureRecognition/FeedForwardNN_V4/data/Fist_Gesture",
-        "C:/Users/Aaron/Desktop/Uni/MCI/Masterarbeit/Python_VisualGestureRecognition/FeedForwardNN_V4/data/Pinch_Gesture",
-        "C:/Users/Aaron/Desktop/Uni/MCI/Masterarbeit/Python_VisualGestureRecognition/FeedForwardNN_V4/data/Spread_Gesture",
-        "C:/Users/Aaron/Desktop/Uni/MCI/Masterarbeit/Python_VisualGestureRecognition/FeedForwardNN_V4/data/Thumb_Up_Gesture"] #,
-        #"C:/Users/Aaron/Desktop/Uni/MCI/Masterarbeit/Python_VisualGestureRecognition/FeedForwardNN_V4/data/Rest_Gesture"]
+        "C:/Users/Aaron/AR_Samples/V2_Masterthesis_GestureRecognition/Assets/FeedForwardNN/data/Fist_Gesture",
+        "C:/Users/Aaron/AR_Samples/V2_Masterthesis_GestureRecognition/Assets/FeedForwardNN/data/Pinch_Gesture",
+        "C:/Users/Aaron/AR_Samples/V2_Masterthesis_GestureRecognition/Assets/FeedForwardNN/data/Spread_Gesture",
+        "C:/Users/Aaron/AR_Samples/V2_Masterthesis_GestureRecognition/Assets/FeedForwardNN/data/Thumb_Up_Gesture"] #,
+        #"C:/Users/Aaron/AR_Samples/V2_Masterthesis_GestureRecognition/Assets/FeedForwardNN/data/Rest_Gesture"]
     
     MODEL_INFORMATION_PATH = "C:/Users/Aaron/AR_Samples/V2_Masterthesis_GestureRecognition/Assets/FeedForwardNN/data/InfoModel.txt"
 
