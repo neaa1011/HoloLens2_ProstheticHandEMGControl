@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Jul 17 13:40:35 2023
-
-@author: Aaron
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Created on Sun Jun  4 21:41:07 2023
 
 @author: Aaron
@@ -315,6 +308,9 @@ def print_confusion_matrix(y_true, y_pred, report=True):
 
 def accuracy_wrapper(estimator, X, y):
     y_pred = estimator.predict(X)
+
+    # Predict using the model with both inputs
+    y_pred = estimator.predict(X)
     
     return accuracy_score(y, np.argmax(y_pred, axis=1))
 
@@ -390,7 +386,6 @@ def CrossValidateModel(X, y, num_folds=5):
         best_model.save(const.MODEL_SAVE_PATH)
 
 
-
 ## MAIN
 # Preprocess Dataset
 print("********** Load Data **********")
@@ -398,7 +393,7 @@ X_train, X_test, y_train, y_test = LoadData()
 
 # Cross-validation
 print("********** Cross-validation **********")
-CrossValidateModel(X_train, y_train, num_folds=5)
+#CrossValidateModel(X_train, y_train, num_folds=5)
 
 # Build Model
 print("********** Build Model **********")
@@ -419,8 +414,8 @@ print(f"Acuuracy: {val_acc} Loss: {val_loss}")
 
 # Feature Importance
 print("********** Feature Importance **********")
-print("** NEEDS TO BE INCLUDED **")
-#feature_idx = list(range(0,150))
+#print("** NEEDS TO BE INCLUDED **")
+#feature_idx = list(range(0,75))
 #f_importances(model, X_test, y_test, feature_idx)
 
 # Write Info in Info File
