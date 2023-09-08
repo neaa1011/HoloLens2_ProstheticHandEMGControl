@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2a9ad393bad128c41b2f95ea5a428001
+  - enabled: 1
+    path: Assets/Scenes/ClassifyScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/RecordScene.unity
+    guid: 36141a99eb402324fa74bd59402c31a6
+  - enabled: 1
+    path: Assets/Scenes/EMGControl.unity
+    guid: 7249230dfc96f34469998a783e8ac803
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e64c072288a982d49a63b520a585cba2, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f2b378f9f0e6b804fa586fb3d927e83d, type: 2}
